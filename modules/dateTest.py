@@ -1,5 +1,4 @@
 import datetime
-import pytz
 
 d = datetime.date(2020, 2, 2)
 print(d)
