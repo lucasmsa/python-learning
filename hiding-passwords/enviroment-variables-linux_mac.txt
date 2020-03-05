@@ -1,0 +1,18 @@
+Hiding passwords on linux/mac to use in python codes
+
+- go to home directory
+- code .bash_profile
+
+at the top of the file:
+
+export user="usuario"
+export password="senha"
+
+- afterwards, inside the python script
+
+'''
+import os
+
+user = os.environ.get('user')
+password = os.environ.get('password')
+'''

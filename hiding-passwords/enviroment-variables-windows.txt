@@ -1,0 +1,21 @@
+Hiding passwords on windows to use in python codes
+
+- Go to control pannel
+- System and Security
+- System
+- Advanced system settings
+- Enviroment variables
+- New...
+::
+-  Variable name: user // Variable value: usuario
+-  Variable name: password // Variable value: senha
+::
+
+- afterwards, inside the python script
+
+'''
+import os
+
+user = os.environ.get('user')
+password = os.environ.get('password')
+'''
