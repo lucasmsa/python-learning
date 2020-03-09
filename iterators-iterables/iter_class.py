@@ -48,3 +48,5 @@ gen = my_gen(1, 10)
 print('gen')
 for n in gen:
     print(n)
+
+dollynho = 'eh do caralho enfia um pastelao no cu'
